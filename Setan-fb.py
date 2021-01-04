@@ -76,8 +76,8 @@ logo = """
 \033[41;1m AKUN SERVER LUAR NEGRI \033[00;1m
                                
 \033[1;96m ╔════════════════════════════════════════════╗
-\033[1;96m \033[1;32mTEAM  : \033[1;32mUSER TERMUX
-\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/RUL-Z
+\033[1;96m \033[1;32mTEAM  : \033[1;32mMR KALIT09
+\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/MRKALIT09
 \033[1;96m \033[1;32mWARNING  : \033[1;32mI M NOT RESPONSIBLE FOR ANY MISS USE
 \033[1;96m ╚════════════════════════════════════════════╝"""
 
@@ -87,7 +87,7 @@ logo = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mPlease wait,loading... ✅\x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mOrang Sabar Di sayang Jamda... ✅\x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -110,15 +110,15 @@ print """
 \033[41;1m AKUN SERVER LUAR NEGRI \033[00;1m
 			       
 \033[1;96m ╔════════════════════════════════════════════╗
-\033[1;96m \033[1;32mTEAM  : \033[1;32mUSER TERMUX
-\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/RUL-Z
+\033[1;96m \033[1;32mTEAM  : \033[1;32mMR KALIT09
+\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/MRKALIT09
 \033[1;96m \033[1;32mWARNING  : \033[1;32mI M NOT RESPONSIBLE FOR ANY MISS USE
 \033[1;96m ╚════════════════════════════════════════════╝"""
 
 print
 print
-jalan("\033[0;95mUSERNAME : PAHRUL") 
-jalan("\033[0;95mPASSWORD: PAHRUL") 
+jalan("\033[0;95mUSERNAME : MR") 
+jalan("\033[0;95mPASSWORD: KALIT09") 
 print
 print
 
@@ -127,23 +127,23 @@ CorrectPassword = "PAHRUL"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[0;96m{★} \x1b[0;93mUSERNAME TOOLS INI \x1b[0;96m︻氕言テ一一一 ")
+    username = raw_input("\033[0;96m{★} \x1b[0;93mSEBUTKAN UNSURNAME TOOLS INI TOD \x1b[0;96m︻氕言テ一一一 ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[0;96m{★} \x1b[0;93mPASSWORD TOOLS INI \x1b[0;96m︻氕言テ一一一 ")
+    	password = raw_input("\033[0;96m{★} \x1b[0;93mPASSWORD TOOLS INI APA TOD \x1b[0;96m︻氕言テ一一一 ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "Password Salah"
+            print "SALAH MEMEK"
     else:
-        print "Username Salah"
+        print "SALAH ANJG"
 
 def login():
     os.system('clear')
     print logo
     print
     print
-    jalan("\033[1;91mLOGIN ACCESS TOKEN !!!")
+    jalan("\033[1;91mLOGIN VIA TOKENFB !!!")
     print 
     toket = raw_input('\x1b[0;39m[\x1b[0;39m?\x1b[0;39m] \x1b[0;39m︻氕言テ一一一 \x1b[0;39m')
     try:
