@@ -117,7 +117,7 @@ print """
 
 print
 print
-jalan("\033[0;95mUSERNAME : MR") 
+jalan("\033[0;95mUSERNAME : Mrs") 
 jalan("\033[0;95mPASSWORD: KALIT09") 
 print
 print
@@ -453,8 +453,8 @@ def pilih_super():
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
 \033[1;96m ╔════════════════════════════════════════════╗
-\033[1;96m \033[1;32mTEAM  : \033[1;32mUSER TERMUX
-\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/RUL-Z
+\033[1;96m \033[1;32mTEAM  : \033[1;32mMR KALIT09
+\033[1;96m \033[1;32mGITHUB : \033[1;32mhttps://github.com/MRKALIT09
 \033[1;96m \033[1;32mWARNING  : \033[1;32mI M NOT RESPONSIBLE FOR ANY MISS USE
 \033[1;96m ╚════════════════════════════════════════════╝"""
   
